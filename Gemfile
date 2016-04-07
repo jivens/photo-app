@@ -10,6 +10,8 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 # Styling for views
 gem 'devise-bootstrap-views'
+# Stripe for processing credit card payments
+gem 'stripe'
 
 # Bcrypt for passwords
 #gem 'bcrypt', '~> 3.1.7'
