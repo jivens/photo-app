@@ -13,14 +13,12 @@ gem 'devise-bootstrap-views'
 # Stripe for processing credit card payments
 gem 'stripe'
 
-# Bcrypt for passwords
-#gem 'bcrypt', '~> 3.1.7'
-# Enable pagination
-#gem 'will_paginate', '~> 3.0.7'
-#gem 'bootstrap-will_paginate', '0.0.10'
-# Use SCSS for stylesheets
-#gem 'bootstrap-sass', '~> 3.3.6'
-#gem 'sass-rails', '~> 5.0'
+# Image uploading
+gem 'carrierwave'
+# Image resizing
+gem 'mini_magick'
+# Images in production
+gem 'fog'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
