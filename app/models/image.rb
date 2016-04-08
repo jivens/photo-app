@@ -1,7 +1,7 @@
 class Image < ActiveRecord::Base
   belongs_to :user
   mount_uploader :picture, PictureUploader
-  validate :pciture_size
+  validate :picture_size
   
 private
 
